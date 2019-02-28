@@ -1,8 +1,8 @@
 {
-  "vendor": "gocommerce",
+  "vendor": "gc-muo9042",
   "name": "theme-fashion",
-  "version": "1.0.0",
-  "title": "Gocommerce Fashion Theme",
+  "version": "0.5.0",
+  "title": "Gocommerce Base Theme",
   "description": "",
   "mustUpdateAt": "2019-10-24",
   "builders": {
@@ -12,7 +12,6 @@
     "messages": "1.x"
   },
   "dependencies": {
-    "gocommerce.theme-base": "1.x",
     "vtex.store-graphql": "2.x",
     "vtex.store": "2.x",
     "vtex.styleguide": "9.x",

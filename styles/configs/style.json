@@ -152,7 +152,7 @@
     },
     "border": {
       "action-primary": "#000",
-      "action-secondary": "#fff",
+      "action-secondary": "#000",
       "emphasis": "#000",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
@@ -203,7 +203,7 @@
       "base": "#142032",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
-      "action-secondary": "#142032",
+      "action-secondary": "#000",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",

@@ -1,3 +1,3 @@
-# fashion-theme
+# theme-base
 
-Gocommerce Fashion Theme
+Gocommerce Base Theme
