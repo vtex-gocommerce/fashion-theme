@@ -1,0 +1,3 @@
+.container > [class*='vtex-button'] svg {
+  color: #000;
+}

@@ -1,0 +1,9 @@
+/* Force header size to prevent wrong size */
+.container + :global(.z-1.bg-base.w-100.relative) {
+  /* height: 144px !important; */
+}
+
+.container > div > div:global(.bb.bw1.b--muted-4) {
+  display: block;
+  border-width: 1px;
+}
