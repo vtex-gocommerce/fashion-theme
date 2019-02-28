@@ -1,27 +1,11 @@
-.container > ul {
-  height: 60px;
+.container {
+  background: #fff;
 }
 
 .itemContainer > a {
-  color: #142032;
-  font-weight: 600;
+  color: #000;
 }
 
 .itemContainer a:global(.b--action-primary) {
-  border-bottom-color: #142032;
-}
-
-.firstLevelLink {
-  color: #142032;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.secondLevelLink {
-  color: #a1a6ad;
-  font-size: 12px;
-  line-height: 30px;
-  padding-top: 0;
-  padding-bottom: 0;
+  border-bottom-color: #000;
 }

@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["carousel#home", "shelf#home", "shelf#home"]
+    "blocks": ["carousel#home", "shelf#home"]
   },
   "store.product": {
     "blocks": ["product-details#default", "product-kit", "shelf.relatedProducts"]
@@ -30,9 +30,9 @@
     "blocks": ["login-content#default"]
   },
   "header.full": {
-    "blocks": ["login", "minicart", "logo", "search-bar", "menu-link", "telemarketing", "category-menu"],
+    "blocks": ["login", "minicart", "logo", "search-bar", "telemarketing", "category-menu"],
     "props": {
-      "logoUrl": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/logo-gocommerce___920efcbbf0948ae30ff97cd0b02d16c4.png"
+      "logoUrl": "https://static.gocommerce.com/gc-xkd5171/assets/gocommerce/png/logo.png"
     }
   },
   "login": {
@@ -96,20 +96,19 @@
   },
   "footer": {
     "props": {
-      "showPaymentFormsInColor": false,
-      "showSocialNetworksInColor": false,
+      "showPaymentFormsInColor": true,
+      "showSocialNetworksInColor": true,
+      "showVtexLogoInColor": false,
       "socialNetworks": [
         {
           "__editorItemTitle": "Facebook",
-          "socialNetwork": "Facebook"
+          "socialNetwork": "Facebook",
+          "url": ""
         },
         {
           "__editorItemTitle": "Instagram",
-          "socialNetwork": "Instagram"
-        },
-        {
-          "__editorItemTitle": "Youtube",
-          "socialNetwork": "Youtube"
+          "socialNetwork": "Instagram",
+          "url": ""
         }
       ],
       "sectionLinks": [
@@ -118,20 +117,19 @@
           "title": "Institucional",
           "links": [
             {
-              "__editorItemTitle": "Garantia Estendida",
-              "title": "Garantia Estendida"
+              "__editorItemTitle": "Quem somos",
+              "title": "Quem somos",
+              "url": ""
             },
             {
-              "__editorItemTitle": "Relações com investidores",
-              "title": "Relações com investidores"
-            },
-            {
-              "__editorItemTitle": "Trabalhe conosco",
-              "title": "Trabalhe conosco"
+              "__editorItemTitle": "Termos e condições",
+              "title": "Termos e condições",
+              "url": ""
             },
             {
               "__editorItemTitle": "Política de privacidade",
-              "title": "Política de privacidade"
+              "title": "Política de privacidade",
+              "url": ""
             }
           ]
         },
@@ -200,7 +198,7 @@
         },
         {
           "__editorItemTitle": "Endereço",
-          "storeInformation": "CNPJ n.º 01.002.333/0001-00  | Centro Empresarial Botafogo - Praia de Botafogo, 300 - 2º Andar - Botafogo, Rio de Janeiro - RJ, 22250-040- empresa do grupo VTEX. "
+          "storeInformation": "TESTE ALTERACAO CNPJ n.º 01.002.333/0001-00  | Centro Empresarial Botafogo - Praia de Botafogo, 300 - 2º Andar - Botafogo, Rio de Janeiro - RJ, 22250-040- empresa do grupo VTEX. "
         }
       ]
     }
@@ -211,15 +209,12 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/banner1___9604c9ba269a97f0120afd6e02213dfc.png"
-        },
-        {
-          "image": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/banner1___9604c9ba269a97f0120afd6e02213dfc.png"
+          "image": "https://static.gocommerce.com/gc-xkd5171/assets/gocommerce/jpg/banner-provisorio___9da646932335e14fb309d8bc56b1c93a.jpg"
         }
       ],
       "height": 440,
       "showArrows": true,
-      "showDots": false
+      "showDots": true
     }
   },
   "shelf#home": {
@@ -231,7 +226,7 @@
         "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top Sellers",
+        "titleText": "Preferidos dos Gatinhos",
         "summary": {
           "displayBuyButton": "displayButtonHover",
           "isOneClickBuy": true,

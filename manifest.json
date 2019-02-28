@@ -1,7 +1,7 @@
 {
   "vendor": "gocommerce",
-  "name": "fashion-theme",
-  "version": "0.2.0",
+  "name": "theme-fashion",
+  "version": "1.0.0",
   "title": "Gocommerce Fashion Theme",
   "description": "",
   "mustUpdateAt": "2019-10-24",
@@ -12,6 +12,7 @@
     "messages": "1.x"
   },
   "dependencies": {
+    "gocommerce.theme-base": "1.x",
     "vtex.store-graphql": "2.x",
     "vtex.store": "2.x",
     "vtex.styleguide": "9.x",
